@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+{{ partial "header.html" . }}
+
+<body>
+  <div class="content">
+    {{ partial "head.html" . }}
+    <main>
+      <div class="me">
+        {{.Content}}
+        {{ $socialCount := len .Site.Params.Social }}
+        {{- range $index, $key := .Site.Params.Social -}}
+          {{ if ne (add $index 1) $socialCount }}
+            <a class="soc" href="{{ $key.url }}" title="{{ $key.name }}">
+              <i data-feather="{{ $key.icon }}"></i>
+            </a>|
+          {{else}}
+            <a class="soc" href="{{ $key.url }}" title="{{ $key.name }}">
+              <i data-feather="{{ $key.icon }}"></i>
+            </a>
+          {{end}}
+        {{- end -}}
+      </div>
+    </main>
+  </div>
+  {{ partial "footer.html" . }}
+</body>
+
+</html>

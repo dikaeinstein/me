@@ -1,0 +1,47 @@
+baseURL = "https://dikaeinstein.dev/"
+languageCode = "en-us"
+theme = "archie"
+title = "Dikaeinstein"
+paginate = 5
+copyright = "© Dikaeinstein"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 1
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 2
+
+[[menu.main]]
+name = "Resume"
+url = "/resume.pdf"
+weight = 3
+
+[params]
+	mode="light"
+	useCDN=false
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/dikaeinstein"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/dika_einstein"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://linkedin.com/in/dikaeinstein"
+
+[[params.social]]
+name = "Email"
+icon = "mail"
+url = "mailto:onyedikachi.okwa@gmail.com"
