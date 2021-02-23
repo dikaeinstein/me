@@ -30,7 +30,7 @@ jobs:
   deploy:
     name: Deploy to Netlify
     needs: build
-    runs-on: ubuntu-latest
+    runs-on:  ubuntu-18.04
     steps:
       - name: Download public directory
         uses: actions/download-artifact@v2

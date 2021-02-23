@@ -4,7 +4,10 @@
   </div>
   <nav>
     {{ range .Site.Menus.main }}
-    <a href="{{ .URL }}">{{ .Name }}</a>
+    <a href="{{ .URL }}" class="mr-1 nav-item">{{ .Name }}</a>
     {{ end }}
+    {{- if or (eq .Site.Params.mode "auto") (eq .Site.Params.mode "dark") -}}
+    <a href="#" class="scheme-toggle mr-1" id="scheme-toggle"></a>
+    {{- end -}}
   </nav>
 </header>

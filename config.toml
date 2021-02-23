@@ -24,8 +24,9 @@ url = "/resume.pdf"
 weight = 3
 
 [params]
-	mode="light"
-	useCDN=false
+	mode="auto"
+	useCDN=true
+
 [[params.social]]
 name = "GitHub"
 icon = "github"
