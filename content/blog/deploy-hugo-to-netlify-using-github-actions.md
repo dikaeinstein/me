@@ -1,7 +1,6 @@
 ---
 title: "Deploy Your Hugo Static Website to Netlify Using Github Actions"
 date: 2021-02-24T20:56:31+01:00
-draft: true
 author: Dika
 tags: [ci/cd, github, github actions]
 ---
