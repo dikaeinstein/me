@@ -6,7 +6,7 @@
       {{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
       <li class="post">
         <section class="list-item">
-          <h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
+          <h1 class="title mt-2"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
           <time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
           <br>
           <div class="description">
