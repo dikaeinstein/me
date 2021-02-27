@@ -46,8 +46,3 @@ url = "https://linkedin.com/in/dikaeinstein"
 name = "Email"
 icon = "mail"
 url = "mailto:onyedikachi.okwa@gmail.com"
-
-[[params.social]]
-name = "Medium"
-icon = "medium"
-url = "https://medium.com/dikaeinstein"
