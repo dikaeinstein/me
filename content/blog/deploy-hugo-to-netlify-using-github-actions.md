@@ -2,7 +2,7 @@
 title: "Deploy Your Hugo Static Website to Netlify Using Github Actions"
 date: 2021-02-24T20:56:31+01:00
 author: Dika
-tags: [ci/cd, github, github actions]
+tags: [ci/cd, deploy, deployment, github, github actions, netlify]
 ---
 
 So you just built your Hugo static website and pondering how to handle deployments. The Hugo docs have a [Hosting and Deployment](https://gohugo.io/hosting-and-deployment/) section for various providers that you can deploy to. But this post is focused on deploying to [Netlify](https://www.netlify.com/) using [Github Actions](https://docs.github.com/en/actions). We will use Github Actions for the CI/CD pipeline and Netlify as the deployment platform. This will be a manual Netlify deployment using its CLI from the CI/CD pipeline.

@@ -29,10 +29,11 @@
 	{{ end }}
 	{{ if .Site.Params.useCDN | default false -}}
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-    	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet"> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> -->
 		<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 	{{- else -}}
         <link href="{{ .Site.BaseURL }}css/fonts.css" rel="stylesheet">
 	{{ end }}

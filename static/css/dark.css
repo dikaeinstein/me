@@ -3,7 +3,7 @@ html.dark body {
   background-color: #202124;
 }
 
-html.dark ::-moz-selection {
+/* html.dark ::-moz-selection {
   background: blue;
   color: #fff;
   text-shadow: none;
@@ -13,7 +13,7 @@ html.dark ::selection {
   background: red;
   color: #fff;
   text-shadow: none;
-}
+} */
 
 html.dark code {
   background-color: lightblue;
@@ -27,6 +27,12 @@ html.dark pre {
   overflow-x: auto;
   padding: 1em;
 }
+html.dark pre code {
+  background-color: #272822;
+  color: unset;
+  /* text-decoration: bold; */
+  padding: 0.1em 0.2em;
+}
 html.dark blockquote {
   border-color: blue;
 }
@@ -39,7 +45,7 @@ html.dark h5,
 html.dark h6 {
   color: #ddd;
 }
-html.dark h1::before {
+/* html.dark h1::before {
   color: var(--darkMaincolor);
   content: '# ';
 }
@@ -62,7 +68,7 @@ html.dark h5::before {
 html.dark h6::before {
   color: var(--darkMaincolor);
   content: '###### ';
-}
+} */
 
 html.dark a {
   border-bottom: 3px solid var(--darkMaincolor);

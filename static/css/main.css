@@ -9,8 +9,9 @@
 html {
   color: #232333;
   /* font-family: 'Roboto Mono', monospace; */
-  font-family: 'Inconsolata', monospace;
-  font-size: 1.2rem;
+  /* font-family: 'Inconsolata', monospace; */
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
   line-height: 1.6em;
 }
 body {
@@ -21,14 +22,16 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-::selection {
+/* ::selection {
   background: var(--maincolor);
   color: #fff;
-}
+} */
 
 p {
   /* font-family: 'Fira Sans', sans-serif; */
-  font-family: 'IBM Plex Sans', sans-serif;
+  /* font-family: 'IBM Plex Sans', sans-serif; */
+  font-family: 'Inter', sans-serif;
+  font-size: 1.15rem;
   line-height: 1.5;
 }
 
@@ -95,6 +98,8 @@ figure h4::before {
 code {
   background-color: #f1f1f1;
   padding: 0.1em 0.2em;
+  font-family: 'ibm plex mono', 'Inconsolata', sans-serif;
+  font-size: 85%;
 }
 
 pre {
@@ -104,15 +109,16 @@ pre {
   padding: 1em;
 }
 
-.highlight pre ::selection {
+/* .highlight pre ::selection {
   background: rgba(255, 255, 255, 0.2);
   color: inherit;
-}
+} */
 
 pre code {
   background-color: transparent;
   color: inherit;
-  font-size: 100%;
+  font-size: 85%;
+  font-family: 'ibm plex mono', 'Inconsolata', sans-serif;
   padding: 0;
 }
 
@@ -136,15 +142,15 @@ header {
 }
 
 header .main {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 1.5rem;
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2, h3 {
+  font-weight: 600;
 }
 
 .mt-2 {
@@ -152,14 +158,42 @@ h6 {
 }
 
 .mr-1 {
-  margin-right: .85rem;
+  margin-right: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;;
 }
 
 .active {
   border-bottom: 0;
 }
 
-h1::before {
+/* h1 {
+  font-size: 2.75rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: .9rem;
+} */
+
+/* h1::before {
   color: var(--maincolor);
   content: '# ';
 }
@@ -182,18 +216,19 @@ h5::before {
 h6::before {
   color: var(--maincolor);
   content: '###### ';
-}
+} */
 
 /* Footer */
 footer {
   text-align: center;
   height: 50px;
+  line-height: 2.5rem;
 }
 
 /* Me */
 .me {
   text-align: center;
-  margin: 17rem auto;
+  margin: 18rem auto;
 }
 
 .page-title {
