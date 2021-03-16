@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dikaeinstein
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dikaeinstein.dev
+  * I am dikaeinstein (https://keybase.io/dikaeinstein) on keybase.
+  * I have a public key ASAtGw583pnag389l6VPfoNwTk9WTCHr_-AsvZFZumY6Ngo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202d1b0e7cde99da837f3d97a54f7e83704e4f564c21ebffe02cbd9159ba663a360a",
+      "host": "keybase.io",
+      "kid": "01202d1b0e7cde99da837f3d97a54f7e83704e4f564c21ebffe02cbd9159ba663a360a",
+      "uid": "502d17507a4d1593c72ba0cef0767419",
+      "username": "dikaeinstein"
+    },
+    "merkle_root": {
+      "ctime": 1615906861,
+      "hash": "ce19ea6d619f8a6d11b8ef670a7dad54e56a9f142315cad7fc7317b4c37461959f2864afda5cbe373954f0763b0b35d98d6d4d6dcaa645cf28463169a7b0c3d5",
+      "hash_meta": "ed02bc26d6e74a490362f428ea4ac96b58ccf16469d7cbe1c87053f0048c7a23",
+      "seqno": 19388087
+    },
+    "service": {
+      "entropy": "E0F2S5E1TQkZej/82+7VQ4jT",
+      "hostname": "dikaeinstein.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1615906896,
+  "expire_in": 504576000,
+  "prev": "992fab1b33a336b18c0027019cf6f9212bdb9344d5455556c075876e6862dcd9",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgLRsOfN6Z2oN/PZelT36DcE5PVkwh6//gLL2RWbpmOjYKp3BheWxvYWTESpcCB8QgmS+rGzOjNrGMACcBnPb5ISvbk0TVRVVWwHWHbmhi3NnEICi/L+5a62QC/SvbmU5q9iAJmupb9CgOrs7LeNT+fAccAgHCo3NpZ8RATNULc2GTng5GjWi+Sislb7OEGjIkNx9IHruLobWW/dzT1UXhLwfJCsrLwXSNmUowOvM6zjPx4Q8yauJQ+OWjAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIM7eM5WHC2mM31O/Z4j+AWTfxDOOJSpPWpDfUS76oulJo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dikaeinstein
+
+==================================================================
